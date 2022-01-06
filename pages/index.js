@@ -27,6 +27,7 @@ export default function Home() {
                         background: 'pink',
                         border: '1px solid black',
                         boxSizing: 'border-box',
+                        cursor: 'pointer',
                     }}
                     onClick={handleClickLogin}
                 >
@@ -42,6 +43,7 @@ export default function Home() {
                         background: 'pink',
                         border: '1px solid black',
                         boxSizing: 'border-box',
+                        cursor: 'pointer',
                     }}
                     onClick={handleClickLogout}
                 >

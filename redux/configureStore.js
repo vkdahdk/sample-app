@@ -5,6 +5,9 @@ import rootReducer from '@/redux/reducer/rootReducer';
 import rootSaga from '@/redux/saga/rootSaga';
 import logger from 'redux-logger';
 
+import rootReducer from 'redux/reducer/rootReducer';
+import rootSaga from 'redux/saga/rootSaga';
+
 
 const store = () => {
     const sagaMiddleware = createSagaMiddleware();
