@@ -1,6 +1,6 @@
 import { call, put, takeLatest } from 'redux-saga/effects';
-import { loginApi, logoutApi } from '../../../api/loginAPI';
-import { loginActions } from '../../reducer/login/loginSlice';
+import { loginApi, logoutApi } from '@/api/loginAPI';
+import { loginActions } from '@/redux/reducer/login/loginSlice';
 
 function* loginSaga(action) {
     try {

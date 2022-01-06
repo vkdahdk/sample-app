@@ -1,7 +1,7 @@
 import { combineReducers } from '@reduxjs/toolkit';
 import { HYDRATE } from "next-redux-wrapper";
 
-import { loginReducer } from './login/loginSlice';
+import { loginReducer } from '@/redux/reducer/login/loginSlice';
 
 // const rootReducer = combineReducers({ loginReducer })(state, action);
 
