@@ -16,7 +16,7 @@ export default function Home() {
 
     return (
         <div className={styles.container}>
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: 'flex' }} className={'text-yellow-200'}>
                 <div
                     style={{
                         flex: 1,
