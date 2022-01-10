@@ -1,7 +1,7 @@
 // import Head from 'next/head';
 // import Image from 'next/image';
-import useLogin from '../hooks/useLogin';
-import styles from '../styles/Home.module.css';
+import useLogin from 'hooks/useLogin';
+import styles from 'styles/Home.module.css';
 
 export default function Home() {
     const [loginData, login, logout] = useLogin();
@@ -27,6 +27,7 @@ export default function Home() {
                         background: 'pink',
                         border: '1px solid black',
                         boxSizing: 'border-box',
+                        cursor: 'pointer',
                     }}
                     onClick={handleClickLogin}
                 >
@@ -42,6 +43,7 @@ export default function Home() {
                         background: 'pink',
                         border: '1px solid black',
                         boxSizing: 'border-box',
+                        cursor: 'pointer',
                     }}
                     onClick={handleClickLogout}
                 >

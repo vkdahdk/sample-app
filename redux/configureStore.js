@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { createWrapper } from 'next-redux-wrapper';
 import createSagaMiddleware from 'redux-saga';
-import rootReducer from './reducer/rootReducer';
-import rootSaga from './saga/rootSaga';
 import logger from 'redux-logger';
+
+import rootReducer from 'redux/reducer/rootReducer';
+import rootSaga from 'redux/saga/rootSaga';
 
 
 const store = () => {
